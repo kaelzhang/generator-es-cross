@@ -1,6 +1,8 @@
-const test = require('ava')
-const log = require('util').debuglog('{{name}}')
-const {{js_name}} = require('../src')
+import test from 'ava'
+import {debuglog} from 'util'
+import {{js_name}} from '../src'
+
+const log = debuglog('{{name}}')
 
 test('description', t => {
   t.is(true, true)

@@ -15,18 +15,24 @@
 
 # generator-es-cross
 
-Yeoman generator to create a nodejs library to support both esm and commonjs
+Yeoman generator to create a nodejs library to support both esm and commonjs by using `package.main` and `package.module`
 
 ## Install
 
 ```sh
-$ npm i generator-es-cross
+$ npm i -g generator-es-cross
 ```
 
 ## Usage
 
-```js
-const generator_es_cross = require('generator-es-cross')
+```sh
+# It is recommanded to clone the empty repo first,
+# `generator-cjs` reads the git remote url and set default prompts values.
+git clone git@github.com:my-name/my-empty-repo.git
+
+cd my-empty-repo
+
+yo es-cross
 ```
 
 ## License
