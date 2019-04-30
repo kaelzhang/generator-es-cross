@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/kaelzhang/generator-es-cross.svg?branch=master)](https://travis-ci.org/kaelzhang/generator-es-cross)
-[![Coverage](https://codecov.io/gh/kaelzhang/generator-es-cross/branch/master/graph/badge.svg)](https://codecov.io/gh/kaelzhang/generator-es-cross)
+<!-- [![Coverage](https://codecov.io/gh/kaelzhang/generator-es-cross/branch/master/graph/badge.svg)](https://codecov.io/gh/kaelzhang/generator-es-cross) -->
 <!-- optional appveyor tst
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/kaelzhang/generator-es-cross?branch=master&svg=true)](https://ci.appveyor.com/project/kaelzhang/generator-es-cross)
 -->

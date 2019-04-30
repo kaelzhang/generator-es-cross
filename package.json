@@ -1,6 +1,6 @@
 {
   "name": "generator-es-cross",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator to create a nodejs library to support both esm and commonjs",
   "scripts": {
     "test": "NODE_DEBUG=generator-es-cross nyc ava --timeout=10s --verbose",
@@ -27,7 +27,8 @@
     "es6",
     "commonjs",
     "nodejs",
-    "library"
+    "library",
+    "yeoman generator"
   ],
   "engines": {
     "node": ">= 6"
@@ -47,7 +48,7 @@
     "ava": "^1.4.1",
     "codecov": "^3.3.0",
     "nyc": "^13.3.0",
-    "eslint-config-ostai": "^3.0.0",
+    "@ostai/eslint-config": "^3.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint": "^5.16.0"
   },
