@@ -27,7 +27,8 @@ $ npm i -g generator-es-cross
 
 ```sh
 # It is recommanded to clone the empty repo first,
-# `generator-cjs` reads the git remote url and set default prompts values.
+# `generator-es-cross` reads the git remote url
+#   and set default prompts values.
 git clone git@github.com:my-name/my-empty-repo.git
 
 cd my-empty-repo
