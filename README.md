@@ -35,6 +35,14 @@ cd my-empty-repo
 yo es-cross
 ```
 
+After that
+
+- ES module files will be located at `./src`
+- ES modules will be transformed into commonjs to directory `./lib` which is ignored by git.
+- `package.main` -> `./lib`
+- `package.module` -> `./src`
+- both directory `src` and directory `lib` will be included in NPM tarball.
+
 ## License
 
 [MIT](LICENSE)

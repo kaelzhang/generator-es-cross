@@ -1,6 +1,6 @@
 {
   "name": "generator-es-cross",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Yeoman generator to create a nodejs library to support both esm and commonjs",
   "scripts": {
     "test": "NODE_DEBUG=generator-es-cross nyc ava --timeout=10s --verbose",
